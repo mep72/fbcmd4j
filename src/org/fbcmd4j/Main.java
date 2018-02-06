@@ -17,8 +17,6 @@ import facebook4j.ResponseList;
 public class Main {
 	private static final Logger logger = LogManager.getLogger(Main.class);
 	private static final Facebook facebook = new FacebookFactory().getInstance();
-	private static final String CONFIG_DIR = "config";
-	private static final String CONFIG_FILE = "facebook4j.properties";
 	private static final String APP_VERSION = "v1.0";
 
 

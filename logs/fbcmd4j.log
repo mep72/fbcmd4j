@@ -11,3 +11,6 @@
 2018-02-05 23:28:29.760 [main] INFO  org.fbcmd4j.Main - Iniciando aplicación.
 2018-02-05 23:28:33.718 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(1) Obtener News Feed'
 2018-02-05 23:28:35.444 [main] ERROR org.fbcmd4j.Main - (#200) Requires extended permission: read_stream
+2018-02-05 23:35:42.241 [main] INFO  org.fbcmd4j.Main - Iniciando aplicación.
+2018-02-05 23:35:46.568 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(2) Obtener Wall'
+2018-02-05 23:35:47.548 [main] ERROR org.fbcmd4j.Main - (#11) This method is deprecated
