@@ -1,0 +1,6 @@
+2018-02-05 21:45:45.417 [main] INFO  org.fbcmd4j.Main - Iniciando aplicación.
+2018-02-05 23:03:24.581 [main] INFO  org.fbcmd4j.Main - Iniciando aplicación.
+2018-02-05 23:03:31.246 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(1) Obtener News Feed'
+2018-02-05 23:03:34.362 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(2) Obtener Wall'
+2018-02-05 23:03:37.052 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(3) Publicar Estado'
+2018-02-05 23:03:47.686 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(3) Publicar LINK'
