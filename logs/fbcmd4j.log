@@ -6,3 +6,8 @@
 2018-02-05 23:03:47.686 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(3) Publicar LINK'
 2018-02-05 23:11:15.411 [main] INFO  org.fbcmd4j.Main - Iniciando aplicación.
 2018-02-05 23:11:20.214 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(3) Publicar Estado'
+2018-02-05 23:22:22.602 [main] INFO  org.fbcmd4j.Main - Iniciando aplicación.
+2018-02-05 23:22:27.149 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(3) Publicar LINK'
+2018-02-05 23:28:29.760 [main] INFO  org.fbcmd4j.Main - Iniciando aplicación.
+2018-02-05 23:28:33.718 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(1) Obtener News Feed'
+2018-02-05 23:28:35.444 [main] ERROR org.fbcmd4j.Main - (#200) Requires extended permission: read_stream

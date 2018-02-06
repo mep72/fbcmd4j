@@ -11,6 +11,8 @@ import org.apache.logging.log4j.Logger;
 import facebook4j.Facebook;
 import facebook4j.FacebookException;
 import facebook4j.FacebookFactory;
+import facebook4j.Post;
+import facebook4j.ResponseList;
 
 public class Main {
 	private static final Logger logger = LogManager.getLogger(Main.class);
@@ -43,6 +45,12 @@ public class Main {
 					switch(seleccion){
 						case 1: 
 							logger.info("Opción seleccionada '(1) Obtener News Feed'");
+							ResponseList<Post> feed = Utils.obtenerWall(facebook);
+							
+							for(Post post : feed) {
+								System.out.println(post.getMessage());
+							}
+							
 							break;
 						case 2:
 							logger.info("Opción seleccionada '(2) Obtener Wall'");
@@ -62,6 +70,7 @@ public class Main {
 							System.out.println("Escribe la descripción del LINK: ");
 							String descripcion = scanner.nextLine();
 							Utils.publicaLink(facebook, link, descripcion);
+							logger.info("Se publicó el link '" + link + "'.");
 							break;
 						case 5:
 							System.exit(0);

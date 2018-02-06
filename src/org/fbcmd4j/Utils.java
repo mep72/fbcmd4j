@@ -5,7 +5,9 @@ import java.net.URL;
 
 import facebook4j.Facebook;
 import facebook4j.FacebookException;
+import facebook4j.Post;
 import facebook4j.PostUpdate;
+import facebook4j.ResponseList;
 
 public class Utils {
 
@@ -18,5 +20,11 @@ public class Utils {
 		PostUpdate post = new PostUpdate(new URL(link))
 				.description(descripcion);
 		facebook.postFeed(post);
+	}
+	
+	public static ResponseList<Post> obtenerWall(Facebook facebook) throws FacebookException {
+		ResponseList<Post> feed = facebook.getHome();
+		
+		return feed; 
 	}
 }
