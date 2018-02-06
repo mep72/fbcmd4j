@@ -1,0 +1,16 @@
+2018-02-05 21:45:45.417 [main] INFO  org.fbcmd4j.Main - Iniciando aplicación.
+2018-02-05 23:03:24.581 [main] INFO  org.fbcmd4j.Main - Iniciando aplicación.
+2018-02-05 23:03:31.246 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(1) Obtener News Feed'
+2018-02-05 23:03:34.362 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(2) Obtener Wall'
+2018-02-05 23:03:37.052 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(3) Publicar Estado'
+2018-02-05 23:03:47.686 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(3) Publicar LINK'
+2018-02-05 23:11:15.411 [main] INFO  org.fbcmd4j.Main - Iniciando aplicación.
+2018-02-05 23:11:20.214 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(3) Publicar Estado'
+2018-02-05 23:22:22.602 [main] INFO  org.fbcmd4j.Main - Iniciando aplicación.
+2018-02-05 23:22:27.149 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(3) Publicar LINK'
+2018-02-05 23:28:29.760 [main] INFO  org.fbcmd4j.Main - Iniciando aplicación.
+2018-02-05 23:28:33.718 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(1) Obtener News Feed'
+2018-02-05 23:28:35.444 [main] ERROR org.fbcmd4j.Main - (#200) Requires extended permission: read_stream
+2018-02-05 23:35:42.241 [main] INFO  org.fbcmd4j.Main - Iniciando aplicación.
+2018-02-05 23:35:46.568 [main] INFO  org.fbcmd4j.Main - Opción seleccionada '(2) Obtener Wall'
+2018-02-05 23:35:47.548 [main] ERROR org.fbcmd4j.Main - (#11) This method is deprecated
