@@ -25,7 +25,6 @@ public class Main {
 		int seleccion;
 		try (Scanner scanner = new Scanner(System.in)){
 			while(true){
-				// twitter = Utils.configuraTwitter(props);
 				// Inicio Menu
 				System.out.format("Cliente de Facebook4j %s\n\n", APP_VERSION);
 				System.out.println("Opciones: ");
@@ -52,6 +51,7 @@ public class Main {
 							logger.info("Opción seleccionada '(3) Publicar Estado'");
 							System.out.println("Escribe el estado a publicar: ");
 							String estado = scanner.nextLine();
+							Utils.publicaEstado(facebook, estado);
 							System.out.println("Se publicó estado [" + estado + "].");
 							break;
 						case 4:
@@ -67,11 +67,11 @@ public class Main {
 					System.out.println("Ocurrió un errror, favor de revisar log.");
 					logger.error("Opción inválida. %s. \n", ex.getClass());
 					scanner.next();
-				} /*catch (FacebookException ex){
+				} catch (FacebookException ex){
 					System.out.println("Ocurrió un errror, favor de revisar log.");
 					logger.error(ex.getErrorMessage());
 					scanner.next();
-				}*/ catch (Exception ex){
+				} catch (Exception ex){
 					System.out.println("Ocurrió un errror, favor de revisar log.");
 					logger.error(ex);
 					scanner.next();
