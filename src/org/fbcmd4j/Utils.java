@@ -27,4 +27,10 @@ public class Utils {
 		
 		return feed; 
 	}
+	
+	public static ResponseList<Post> obtenerPost(Facebook facebook) throws FacebookException{
+		ResponseList<Post> results = facebook.searchPosts("*");
+		
+		return results; 
+	}
 }

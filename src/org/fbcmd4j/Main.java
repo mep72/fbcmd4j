@@ -54,6 +54,11 @@ public class Main {
 							break;
 						case 2:
 							logger.info("Opción seleccionada '(2) Obtener Wall'");
+							ResponseList<Post> posts = Utils.obtenerPost(facebook);
+							
+							for(Post post : posts) {
+								System.out.println(post.getMessage());
+							}
 							
 							break;
 						case 3:
