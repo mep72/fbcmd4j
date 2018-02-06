@@ -1,5 +1,6 @@
 package org.fbcmd4j;
 
+import java.net.MalformedURLException;
 import java.nio.file.NoSuchFileException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -56,6 +57,11 @@ public class Main {
 							break;
 						case 4:
 							logger.info("Opción seleccionada '(3) Publicar LINK'");
+							System.out.println("Escribe el LINK a publicar: ");
+							String link = scanner.nextLine();
+							System.out.println("Escribe la descripción del LINK: ");
+							String descripcion = scanner.nextLine();
+							Utils.publicaLink(facebook, link, descripcion);
 							break;
 						case 5:
 							System.exit(0);
@@ -71,6 +77,9 @@ public class Main {
 					System.out.println("Ocurrió un errror, favor de revisar log.");
 					logger.error(ex.getErrorMessage());
 					scanner.next();
+				} catch( MalformedURLException ex) {
+					System.out.println("Ocurrió un error al tratar de publicar el LINK, favor de revisar log.");
+					logger.error(ex.getMessage());
 				} catch (Exception ex){
 					System.out.println("Ocurrió un errror, favor de revisar log.");
 					logger.error(ex);
